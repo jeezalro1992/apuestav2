@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/miestilo.css">
+
+</head>
+<body>
+
+<header>
+<section class="gn">
+<h1>Casino</h1>
+<!--Resuslado de Maquina-->
+
+<p id="respuesta">No ha iniciado su apuesta</p>
+<section id="m1" class="rs"><img src="img/d1.png"><p>Resultado uno</p></section>
+<section id="m2" class="rs"><img src="img/d2.png"><p>Resultado dos</p></section>
+<section id="m3" class="rs"><img src="img/d3.png"><p>Resultado tres</p></section>
+<section id="m4" class="rs"><img src="img/d4.png"><p>Resultado cuatro</p></section>
+<section id="m5" class="rs"><img src="img/d5.png"><p>Resultado cinco</p></section>
+<section id="m6" class="rs"><img src="img/d6.png"><p>Resultado seis</p></section>
+</section>
+</header>
+
+<div class="gnr">
+
+<!--Selecion de usuario-->
+<!--Selecion de usuario apuesta $5-->
+<section  class="ficha" id="u5">
+<div class="duf"><img src="img/cinco.png"></div>
+<div class="du" onclick="ejecutar(0,0);"><img src="img/d1.png"></div>
+<div class="du" onclick="ejecutar(0,1);"><img src="img/d2.png"></div>
+<div class="du" onclick="ejecutar(0,2);"><img src="img/d3.png"></div>
+<div class="du" onclick="ejecutar(0,3);"><img src="img/d4.png"></div>
+<div class="du" onclick="ejecutar(0,4);"><img src="img/d5.png"></div>
+<div class="du" onclick="ejecutar(0,5);"><img src="img/d6.png"></div>
+</section>
+
+<!--Selecion de usuario apuesta $10-->
+<section  class="ficha" id="u10">
+<div class="duf"><img src="img/diez.png"></div>
+<div class="du" onclick="ejecutar(1,0);"><img src="img/d1.png"></div>
+<div class="du" onclick="ejecutar(1,1);"><img src="img/d2.png"></div>
+<div class="du" onclick="ejecutar(1,2);"><img src="img/d3.png"></div>
+<div class="du" onclick="ejecutar(1,3);"><img src="img/d4.png"></div>
+<div class="du" onclick="ejecutar(1,4);"><img src="img/d5.png"></div>
+<div class="du" onclick="ejecutar(1,5);"><img src="img/d6.png"></div>
+</section>
+
+<!--Selecion de usuario apuesta $20-->
+<section class="ficha" id="u20" >
+<div class="duf"><img src="img/veinte.png"></div>
+<div class="du" onclick="ejecutar(2,0);"><img src="img/d1.png"></div>
+<div class="du" onclick="ejecutar(2,1);"><img src="img/d2.png"></div>
+<div class="du" onclick="ejecutar(2,2);"><img src="img/d3.png"></div>
+<div class="du" onclick="ejecutar(2,3);"><img src="img/d4.png"></div>
+<div class="du" onclick="ejecutar(2,4);"><img src="img/d5.png"></div>
+<div class="du" onclick="ejecutar(2,5);"><img src="img/d6.png"></div>
+</section>
+
+<!--Selecion de usuario apuesta $50-->
+<section class="ficha" id="u50" >
+<div class="duf"><img src="img/cincuenta.png"></div>
+<div class="du" onclick="ejecutar(3,0);"><img src="img/d1.png"></div>
+<div class="du" onclick="ejecutar(3,1);"><img src="img/d2.png"></div>
+<div class="du" onclick="ejecutar(3,2);"><img src="img/d3.png"></div>
+<div class="du" onclick="ejecutar(3,3);"><img src="img/d4.png"></div>
+<div class="du" onclick="ejecutar(3,4);"><img src="img/d5.png"></div>
+<div class="du" onclick="ejecutar(3,5);"><img src="img/d6.png"></div>
+</section>
+
+
+</div>
+<section id="ganaste" >
+
+		<p>Felicidades Has Ganado!!!!!!!!!!!!!</p>
+		<a href="apuesta.html">Juega de nuevo</a> 
+			
+		</section>
+		<section id="empatados" >
+
+		<p>Buen Juego!!! hemos empatado</p>
+		<a href="apuesta.html">Juega de nuevo???</a> 
+			
+		</section>
+		<section id="perdiste" >
+
+		<p>Perdiste!!!</p>
+		<a href="apuesta.html">Apuesta de nuevo?</a> 
+			
+		</section>
+<footer>
+
+<!--Efectivo diponible De usuario Banco Sistema-->
+<section class="gnf">
+	<div><p id="fu">Tienes disponible <br>$100.00</p></div>
+	<div><p id="fs">Sistema tiene disponible <br>$100.00</p> 
+	</div>
+	<div><p id="fc">Fonodo en caja <br> $1000.00</p></div>
+</section>
+ <section class="gnf">
+ <p>Creado por Jesus Lopez</p>
+ </section>
+ </footer>
+
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
